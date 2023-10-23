@@ -59,3 +59,5 @@ foreach ($zip in $items)
     # echo "Deleting $zip"
     # Remove-Item -Path "$src/$zip"
 }
+
+$confirmation = Read-Host "Done. Press any key to exit..."
